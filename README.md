@@ -18,10 +18,11 @@ docker compose up -d
 
 ## Step 3: Launch VS Code
 
+Open this directory in VS Code.  The command below will open the directory as a workspace, and also open this README.md file.
 ```
-code .
+code . README.md
 ```
-When prompted to install recommended extensions, install the PlantUML extension.  The `settings.json` file has been configured for `http://localhost:9147`.
+When prompted to install recommended extensions, install the PlantUML extension.  The `settings.json` file has been configured for the PlantUML server running at `http://localhost:9147`.
 
 ## Step 4: Open the Markdown Preview
 
@@ -29,7 +30,6 @@ When prompted to install recommended extensions, install the PlantUML extension.
 
 The native Markdown Preview now render PlantUML inside the Markdown file.
 
-* Select this README.md file in the file explorer.
 * Open the Markdown preview by...
     * Pressing the small icon in the top right.  It's a magnifying lens over two pages.
     * Opening the command palette and searching for 'Markdown: Open Preview' or 'Markdown: Open Preview to the Side'
