@@ -48,7 +48,7 @@ Additionally, the plugin adds 'PlantUML: Preview Current Diagram' to the command
 
 ## Step 5: Create PlantUML diagrams
 
-The plugin recognizes files with the *.wsd, *.pu, *.puml, *.plantuml, *.iuml extensions.
+The plugin recognizes files with the `*.wsd, *.pu, *.puml, *.plantuml, *.iuml` extensions.
 
 Additionally, you can embed diagrams in Markdown, like this example below.  Note that the Markdown image won't render in other locations without render support, but you could export the image publishing.
 
